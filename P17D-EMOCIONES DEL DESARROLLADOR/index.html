@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="bloque_1">
+        <h1>Dev Emotions Tool</h1>
+    </div>
+    <div class="paater">
+        <div class="emociones">
+            <ul>
+                <li><button class="emociones__emocion emociones__emocion--violet">Iluminacion</button></li>
+                <li><button class="emociones__emocion emociones__emocion--purple">Paz</button></li>
+                <li><button class="emociones__emocion emociones__emocion--purple-2">Alegria</button></li>
+                <li><button class="emociones__emocion emociones__emocion--purple-3">Amor</button></li>
+                <li><button class="emociones__emocion emociones__emocion--blue">Razonamiento</button></li>
+                <li><button class="emociones__emocion emociones__emocion--blue-2">Aceptacion</button></li>
+                <li><button class="emociones__emocion emociones__emocion--aqua">Voluntad</button></li>
+                <li><button class="emociones__emocion emociones__emocion--aqua-2">Neutralidad</button></li>
+                <li><button class="emociones__emocion emociones__emocion--green">coraje</button></li>
+                <li><button class="emociones__emocion emociones__emocion--green-2">Orgullo</button></li>
+                <li><button class="emociones__emocion emociones__emocion--green-3">Ira</button></li>
+                <li><button class="emociones__emocion emociones__emocion--green-4">Deseo</button></li>
+                <li><button class="emociones__emocion emociones__emocion--green-5">Miedo</button></li>
+                <li><button class="emociones__emocion emociones__emocion--yellow">tristeza</button></li>
+                <li><button class="emociones__emocion emociones__emocion--orange">Apatia</button></li>
+                <li><button class="emociones__emocion emociones__emocion--orange-2">Culpa</button></li>
+                <li><button class="emociones__emocion emociones__emocion--red">Verguenza</button></li>
+            </ul>
+        
+        </div>
+    
+        <div class="bloque_2">
+            <p class="texto">No me sale ni una practica pero VAMOS!!, que rule JS!!</p>
+        </div>
+    </div>
+
+    <div class="boton-random">
+        <button class="colocar"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-shuffle-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M18 4l3 3l-3 3" />
+            <path d="M18 20l3 -3l-3 -3" />
+            <path d="M3 7h3a5 5 0 0 1 5 5a5 5 0 0 0 5 5h5" />
+            <path d="M3 17h3a5 5 0 0 0 5 -5a5 5 0 0 1 5 -5h5" />
+          </svg></button>
+    </div>
+
+     <script>
+        const emotionsBtn=document.querySelector("emociones__emocion");
+        console.log(emotionsBtn);
+
+        emotionsBtn.forEach(boton => {
+            const color = "#FF0000";
+            boton.style.color = color;
+        });
+    </script>
+  
+    
+</html>

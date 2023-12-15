@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+svg{
+    width:100%;
+    
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.woman{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    width:600px;
+     
+    
+    
+}
+
+.chackra{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:3%;
+    height:3%;
+    transform: translate(-50%, 0)
+  
+   
+}
+
+.chackra--violet{
+    background-color: rgb(231, 29, 231);
+    
+    border-radius: 50%;
+    top:35%;
+    
+}
+
+.chackra--blue{
+    background-color: #0000ff;
+    border-radius: 50%;
+    top:40%;
+}
+
+.chackra--aqua{
+    background-color: aqua;
+    border-radius: 50%;
+    top:45%;
+}
+
+.chackra--green{
+    background-color: #008000;
+    border-radius: 50%;
+    top:50%;
+}
+
+.chackra--yellow{
+    background-color: #ffff00;
+    border-radius: 50%;
+    top:55%;
+}
+
+.chackra--orange{
+    background-color: #ff4500;
+    border-radius: 50%;
+    top:60%;
+}
+
+.chackra--red{
+    background-color: #ff0000;
+    border-radius: 50%;
+    top:65%;
+}
+
+@keyframes rotatewoman[
+    from(transform:)
+]

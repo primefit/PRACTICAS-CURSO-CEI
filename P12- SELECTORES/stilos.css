@@ -1,0 +1,38 @@
+*{
+    color:red;
+}
+
+label{
+    font-size:px; 
+}
+
+.my-label{
+    color:blue;
+}
+
+#nombre{
+    border:2px solid green;
+}
+
+
+.my--label.nombre{
+    color:purple;
+}
+
+
+/* selector compuesto*/
+
+[type="range" name="vacaciones"]
+
+
+/* selector anidado*/
+
+section label{
+    border: 2px solid black;
+}
+
+/*selector multiple*/
+
+label, imput{
+    display:block;
+}

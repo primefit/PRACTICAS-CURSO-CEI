@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: blue;
+
+    padding:4%;
+}
+
+
+.cuadrado{
+    background-color: aqua;
+    width:50vw;
+    height:50vw;
+    background: linear-gradient(rgb(37, 37, 236), rgb(22, 22, 100), rgb(50, 50, 145));
+    
+     
+    
+}
+
+p{
+    font-size: 20vw;
+    color:#ffffff;
+}

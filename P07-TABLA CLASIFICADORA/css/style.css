@@ -1,0 +1,51 @@
+table,td, tr{
+    
+    border:1px solid white;
+    border-collapse: collapse; /**para que no haya separacion entre celdas**/
+    
+
+}
+
+
+td{
+    
+    text-align: center;
+   padding:15px;
+}
+
+.fila1{
+    background-color: blue;
+    font-size: 15px;
+    color:white;
+    text-transform:uppercase;
+    
+}
+
+.fila2{
+    background-color:#B3D0D0;
+    font-size: 15px;
+    color:black;
+
+}
+
+.fila3{
+    
+    background-color:#CDD8D8;
+    font-size: 15px;
+    color:black;
+}
+
+
+.fila4{
+
+    background-color: #E2F5F5;
+    font-size: 15px;
+    color:black;
+
+}
+
+.fila5{
+    background-color: #F6F9F8;
+    font-size: 15px;
+    color:black;
+}

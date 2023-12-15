@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    padding: 0 20px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: #808080;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.rectangulos__container{
+
+    display:flex;
+}
+
+.circulo{
+    width: 50px;
+    height:50px;
+    background-color: #ffffff;
+    border-radius:50%;
+}
+.rectangulos__subcontainer{
+    padding:10px;
+}
+.rectangulo__shape{
+    background-color: #ffffff;
+    PADDING:15px 30 px;
+}
+
+
+
+
+@media screen and(max-width:600px){
+    
+}

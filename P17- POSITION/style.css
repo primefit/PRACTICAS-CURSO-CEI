@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    ;
+}
+
+.bloque-borde-morado{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid #f786f7;
+    align-items: center;
+}
+
+.interior-izq{
+    display:flex;
+    padding-left: 5px;
+}
+
+.circulito{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #c71585;
+}
+
+.cuadrado-negro{
+    width:80px;
+    height:80px;
+    background-color: #000000;
+}
+
+
+.texto{
+    padding-left: 10px;
+    
+    
+}
+
+.negrita{
+    font-weight: bold;
+}
+.container{
+    background-color:#b3b362;
+    padding:10px;
+    
+}
